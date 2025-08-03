@@ -1,0 +1,105 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.container{
+    padding: 50px;
+}
+.sc-one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 3px;
+}
+.sc-one__contact{
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right:  10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    display: inline;
+    
+    
+}
+.sc-one__name{
+    font-size: 60px;
+}
+.sc-one__role{
+    font-size: 30px;
+    margin-top: 9px;
+}
+.sc-2,.sc-3,.sc-4,.sc-5{
+    margin-top: 20px;
+
+}
+
+.sc-2__desc,.sc-3__desc,.sc-4__desc,.sc-5__desc{
+     margin-top: 10px;
+}
+.sc-5{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-radius: 10px;
+}
+.sc-5__title a{
+    color:rgb(81, 214, 20);
+}
+.sc-3{
+    background-color:#803e8b;
+    color: black;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 13px;
+    height: 150px;
+    vertical-align: top;
+}
+.sc-4{
+    background-color: #ff5e00;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    height: 150px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.co-form{
+        margin-top: 20px;
+
+}
+
+.co-form__input,.co-form__textarea,.co-form__submit{
+    margin: 10px;
+}
+.co-form__input{
+     padding: 10px;
+     border: none;
+     border-bottom: solid black 1px;
+
+}
+
+
+.co-form__textarea{
+    padding: 10px;
+    border: none;
+    border: solid black;
+}
+.co-form__submit{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: #ff008c;
+    color: black;
+    border-radius: 5px;
+    
+}
